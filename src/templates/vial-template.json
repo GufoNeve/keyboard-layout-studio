@@ -1,0 +1,13 @@
+{
+  "name": "Custom Keyboard",
+  "vendorId": "0xFEED",
+  "productId": "0x0000",
+  "lighting": "none",
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
+  "layouts": {
+    "keymap": []
+  }
+}

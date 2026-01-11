@@ -1,0 +1,27 @@
+{
+  "keyboard_name": "custom_keyboard",
+  "manufacturer": "Custom",
+  "url": "",
+  "maintainer": "qmk",
+  "usb": {
+    "vid": "0xFEED",
+    "pid": "0x0000",
+    "device_version": "1.0.0"
+  },
+  "matrix_pins": {
+    "cols": [],
+    "rows": []
+  },
+  "diode_direction": "COL2ROW",
+  "features": {
+    "bootmagic": true,
+    "mousekey": true,
+    "extrakey": true,
+    "nkro": true
+  },
+  "layouts": {
+    "LAYOUT": {
+      "layout": []
+    }
+  }
+}
