@@ -98,7 +98,7 @@
       <p class="text-xs text-gray-500 mt-2">カーソルキー: 移動<br/>Shift+カーソルキー: サイズ変更</p>
     </div>
 
-    <div v-else class="space-y-4">
+    <div v-else-if="store.selectedKey" class="space-y-4">
       <!-- 形状 -->
       <div class="property-section">
         <h3 class="text-sm font-semibold text-gray-300 mb-2">形状</h3>

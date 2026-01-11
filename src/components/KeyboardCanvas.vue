@@ -311,7 +311,7 @@ function handleCanvasClick(_event: MouseEvent) {
 
 // ドラッグ選択開始
 function handleMouseDown(event: MouseEvent) {
-  const svg = event.currentTarget as SVGElement
+  const svg = event.currentTarget as SVGSVGElement
   const pt = svg.createSVGPoint()
   pt.x = event.clientX
   pt.y = event.clientY
@@ -332,7 +332,7 @@ function handleMouseDown(event: MouseEvent) {
 function handleMouseMove(event: MouseEvent) {
   if (!isDragging.value) return
 
-  const svg = event.currentTarget as SVGElement
+  const svg = event.currentTarget as SVGSVGElement
   const pt = svg.createSVGPoint()
   pt.x = event.clientX
   pt.y = event.clientY
