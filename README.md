@@ -25,7 +25,7 @@ A modern, web-based keyboard layout editor designed as an alternative to keyboar
 
 ## Demo
 
-https://github.io/ymkn/keyboard-layout-studio/
+https://ymkn.github.io/keyboard-layout-studio/
 
 ## Getting Started
 
