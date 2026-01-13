@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./kls-logo.png" alt="Keyboard Layout Studio Logo" width="200">
+  <img src="public/kls-logo.png" alt="Keyboard Layout Studio Logo" width="200">
 </p>
 
 # Keyboard Layout Studio
